@@ -1,0 +1,5 @@
+/* pages/demo/index.wxss */
+.box {
+  width: 750rpx;
+  height: 320rpx;
+}

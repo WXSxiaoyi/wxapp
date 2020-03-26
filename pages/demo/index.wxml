@@ -1,0 +1,35 @@
+<!--pages/demo/index.wxml-->
+<swiper
+  class="box"
+  indicator-dots
+  indicator-color="rgba(0, 0, 0, .6)"
+  autoplay
+  circular
+  indicator-active-color="#fff"
+  >
+	<swiper-item>
+		<navigator url="">
+			<cover-image src="../../static/uploads/content_1.png"></cover-image>
+		</navigator>
+	</swiper-item>
+	<swiper-item>
+		<navigator url="">
+			<cover-image src="../../static/uploads/detail_1.png"></cover-image>
+		</navigator>
+	</swiper-item>
+	<swiper-item>
+		<navigator url="">
+			<cover-image src="../../static/uploads/item_1.png"></cover-image>
+		</navigator>
+	</swiper-item>
+	<swiper-item>
+		<navigator url="">
+			<cover-image src="../../static/uploads/item_2.png"></cover-image>
+		</navigator>
+	</swiper-item>
+	<swiper-item>
+		<navigator url="">
+			<cover-image src="../../static/uploads/item_3.png"></cover-image>
+		</navigator>
+	</swiper-item>
+</swiper>

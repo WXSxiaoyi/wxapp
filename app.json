@@ -1,13 +1,40 @@
 {
   "pages": [
+    "pages/demo/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/video/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "游乐园",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo/index",
+        "text": "首页",
+        "iconPath": "./icon/home-default.png",
+        "selectedIconPath": "./icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "text": "卡劵",
+        "iconPath": "./icon/ticket-default.png",
+        "selectedIconPath": "./icon/ticket-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "用户",
+        "iconPath": "./icon/face-default.png",
+        "selectedIconPath": "./icon/face-active.png"
+      }
+    ],
+    "color": "#D78B09",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#FECA49"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
