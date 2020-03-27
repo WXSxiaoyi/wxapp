@@ -1,0 +1,9 @@
+.box {
+    display: block;
+    width: 750rpx;
+    height: 375rpx;
+    background-color: #ff8500;
+}
+.btn {
+    width: 750rpx;
+}

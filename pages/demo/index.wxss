@@ -1,5 +1,40 @@
 /* pages/demo/index.wxss */
 .box {
+  height: 320rpx;
+}
+image {
   width: 750rpx;
   height: 320rpx;
+  display: block;
+}
+.title {
+  font-size: 28rpx;
+  line-height: 1;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+.infos {
+  height: 180rpx;
+  background-color: pink;
+  box-sizing: border-box;
+  padding: 16rpx 124rpx 72rpx 30rpx;
+  position: relative;
+}
+.name {
+  color: #3C3C3C;
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+}
+.price {
+  color: #FE6249;
+  font-size: 32rpx;
+  position: absolute;
+  top: 16rpx;
+  right: 30rpx;
+}
+.details {
+  color: #848484;
+  font-size: 22rpx;
+  margin-left: 30rpx;
 }

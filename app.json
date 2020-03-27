@@ -3,7 +3,8 @@
     "pages/demo/index",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/video/index"
+    "pages/video/index",
+    "pages/my/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,6 +37,5 @@
     "selectedColor": "#FFFFFF",
     "backgroundColor": "#FECA49"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

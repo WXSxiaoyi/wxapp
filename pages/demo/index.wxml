@@ -1,4 +1,5 @@
 <!--pages/demo/index.wxml-->
+<!-- 轮播图 -->
 <swiper
   class="box"
   indicator-dots
@@ -9,27 +10,47 @@
   >
 	<swiper-item>
 		<navigator url="">
-			<cover-image src="../../static/uploads/content_1.png"></cover-image>
+			<image src="http://wxs25789.gitee.io/chenxuimage/uploads/slide_1.jpg"></image>
 		</navigator>
 	</swiper-item>
 	<swiper-item>
 		<navigator url="">
-			<cover-image src="../../static/uploads/detail_1.png"></cover-image>
+			<image src="http://wxs25789.gitee.io/chenxuimage/uploads/slide_2.jpg"></image>
 		</navigator>
 	</swiper-item>
 	<swiper-item>
 		<navigator url="">
-			<cover-image src="../../static/uploads/item_1.png"></cover-image>
+			<image src="http://wxs25789.gitee.io/chenxuimage/uploads/slide_3.jpg"></image>
 		</navigator>
 	</swiper-item>
 	<swiper-item>
 		<navigator url="">
-			<cover-image src="../../static/uploads/item_2.png"></cover-image>
+			<image src="http://wxs25789.gitee.io/chenxuimage/uploads/slide_4.jpg"></image>
 		</navigator>
 	</swiper-item>
 	<swiper-item>
 		<navigator url="">
-			<cover-image src="../../static/uploads/item_3.png"></cover-image>
+			<image src="http://wxs25789.gitee.io/chenxuimage/uploads/slide_5.jpg"></image>
 		</navigator>
 	</swiper-item>
 </swiper>
+
+<!-- 标题 -->
+<view class="title">乐园活动</view>
+
+<!-- 卡片列表 -->
+
+<view class="item">
+	<navigator url="">
+		<image src="http://wxs25789.gitee.io/chenxuimage/uploads/item_1.png"></image>
+	</navigator>
+	<view class="infos">
+		<view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+		<view class="price">免费</view>
+		<view class="details">
+			<text>200本已报名</text>
+			<text>本周六开始</text>
+      <text></text>
+		</view>
+	</view>
+</view>
