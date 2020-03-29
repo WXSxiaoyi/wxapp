@@ -1,0 +1,13 @@
+<button
+  type="primary" bind:tap="btn"
+  class="btn"
+  data-aa="123"
+>打印1</button>
+
+<input
+  class="input"
+  maxlength="10"
+  bindinput="{{bindKeyInput}}"
+  bind:blur="jiaodi"
+  data-jiaodian="{{bindKeyInput}}"
+></input>

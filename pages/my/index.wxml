@@ -1,3 +1,33 @@
-<text class="box">没有想到吧</text>
-<button type="primary" class="btn">按钮</button>
+<!--<text class="box">没有想到吧</text>-->
 
+<!--<view  wx:for="{{arr}}" wx:key="*this">-->
+<!--    {{index}}&#45;&#45;&#45;&#45;&#45;&#45;》{{item}}-->
+<!--</view>-->
+
+<!--<button type="primary" class="btn">{{btn}}</button>-->
+
+<!--<view  wx:for="{{list}}" wx:key="id">-->
+<!--    {{index}}&#45;&#45;&#45;&#45;&#45;&#45;》{{item.title}}-->
+<!--</view>-->
+
+<view class="table">
+    <text>姓名</text>
+    <text>性别</text>
+    <text>是否成年</text>
+    <text>是否参军</text>
+</view>
+
+<view class="table one" wx:for="{{whole}}" wx:key="*this">
+    <text>{{item.name}}</text>
+    <text>{{item.gender===1?'男':'女'}}</text>
+    <block wx:if="{{item.age>18}}">
+        <text>是</text>
+        <text>参军</text>
+    </block>
+
+    <block wx:else>
+        <text>否</text>
+        <text>未参</text>
+    </block>
+</view>
+<button type="primary" hidden="{{flag}}">btn</button>

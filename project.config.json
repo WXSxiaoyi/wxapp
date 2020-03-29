@@ -58,6 +58,27 @@
 					"id": -1,
 					"name": "pages/my/index",
 					"pathName": "pages/my/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "学习事件",
+					"pathName": "pages/02_code/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "作业",
+					"pathName": "pages/job/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "测试",
+					"pathName": "pages/03_code/index",
 					"scene": null
 				}
 			]

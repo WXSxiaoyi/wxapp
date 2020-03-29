@@ -1,0 +1,13 @@
+<button
+  bind:tap="one"
+  class="btn1"
+  disabled="{{!flag}}"
+  type="warn"
+  >按钮1</button>
+
+<button
+  bind:tap="two"
+  class="btn2"
+  disabled="{{flag}}"
+  type="primary"
+>按钮2</button>

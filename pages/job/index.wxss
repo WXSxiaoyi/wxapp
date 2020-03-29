@@ -1,0 +1,8 @@
+.btn1 {
+  width: 375rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.btn2 {
+  width: 375rpx;
+}

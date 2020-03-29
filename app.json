@@ -1,10 +1,12 @@
 {
   "pages": [
     "pages/demo/index",
-    "pages/index/index",
     "pages/logs/logs",
     "pages/video/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/02_code/index",
+    "pages/job/index",
+    "pages/03_code/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,7 +29,7 @@
         "selectedIconPath": "./icon/ticket-active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/job/index",
         "text": "用户",
         "iconPath": "./icon/face-default.png",
         "selectedIconPath": "./icon/face-active.png"

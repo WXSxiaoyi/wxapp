@@ -7,3 +7,18 @@
 .btn {
     width: 750rpx;
 }
+.table {
+    display: flex;
+    background: #cccccc;
+    height: 60rpx;
+}
+.table text {
+    flex: 1;
+    text-align: center;
+    line-height: 60rpx;
+    border-right: 1px solid #000;
+}
+.one {
+    background: #ffffff;
+    border-bottom: 1px solid #000;
+}
